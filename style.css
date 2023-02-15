@@ -42,6 +42,7 @@ h2 {
     font-size: 23px;
     height: 55px;
     text-align: center;
+    align-self: center;
 }
 .subjects > input:focus{
     border-color: blueviolet;
