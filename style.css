@@ -1,0 +1,112 @@
+/* .subjects {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+/* .subjects > *{
+    display: flex;
+    gap: 10px;
+} */
+::-webkit-inner-spin-button,
+  ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+
+::placeholder {
+   text-align: center; 
+}
+body{
+
+    background: linear-gradient(122deg,rgb(21, 150, 255), violet) fixed ;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    font-size: 22px;
+    font-family: cursive;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Julee', cursive;
+}
+h2 {
+    font-size: 35px;
+    font-family: 'Julee', cursive;
+}
+.subjects {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 520px 100px;
+    
+}
+.subjects > p{
+    font-size: 2rem;
+}
+.subjects > input{
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid #bbb;
+    font-size: 23px;
+    height: 55px;
+    text-align: center;
+}
+.subjects > input:focus{
+    border-color: blueviolet;
+}
+.subjects > input:valid{
+    border-color: green;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button > input{
+    height: 70px;
+    width: 180px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #3f3e3e;
+    color: #fff;
+    background: linear-gradient(122deg,rgb(21, 150, 255), violet);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 150ms;
+}
+.button > input:active, .rst_btn:active{
+    border-bottom: var(--border);
+    transform: translateY(5px);
+  }
+  
+.button > input:hover {
+    background: linear-gradient(122deg, violet,rgb(21, 150, 255));
+
+  }
+#output {
+    background: rgb(255, 255, 255);
+    height: 65px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 40px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rst_btn {
+    background-color: rgb(153, 206, 255);
+    height: 55px;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 40px;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid #3f3e3e;
+    align-items: center;
+    justify-content: center;
+    transition: 150ms;
+}

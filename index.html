@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <title>Grade Calculation</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer ></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Grade Calculation</h1>
+        </div>
+        <h2>Your notes:</h2>
+        <form action="#">
+            <div class="subjects">
+                <p>Traduction/Interprétation (Fetis/Laadjal):</p>
+                <input type="number" step="any" min="0" max="20" name="tra_inter_laadjal" placeholder="0/20" required>
+                <p>Stylistique All:</p>
+                <input type="number" step="any" min="0" max="20" name="styl_all" placeholder="0/20" required>
+                <p>Critique de la traduction/traduction Orale:</p>
+                <input type="number" step="any" min="0" max="20" name="crit" placeholder="0/20" required>
+                <p>Méthodologie (recherche scientifique):</p>
+                <input type="number" step="any" min="0" max="20" name= "metho" placeholder="0/20" required>
+                <p>Traduction/Interprétation (Adjabi):</p>
+                <input type="number" step="any" min="0" max="20" name= "tra_inter_adjabi" placeholder="0/20" required>
+                <p>Recherche documentaire:</p>
+                <input type="number" step="any" min="0" max="20" name= "recherche_doc" placeholder="0/20" required>
+                <p>Stylistique Ar:</p>
+                <input type="number" step="any" min="0" max="20" name= "styl_ar" placeholder="0/20" required>
+                <p>Lexicologie et terminologie:</p>
+                <input type="number" step="any" min="0" max="20" name= "lexico" placeholder="0/20" required>
+                <p>Droit:</p>
+                <input type="number" step="any" min="0" max="20" name= "droit" placeholder="0/20" required>
+                <p>L'économie:</p>
+                <input type="number" step="any" min="0" max="20" name= "eco" placeholder="0/20" required>
+                <p>Traduction Fr/Ar</p>
+                <input type="number" step="any" min="0" max="20" name= "fr_ar" placeholder="0/20" required>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+                <p id="output">?</p>
+            </div>
+        </form>
+        <div class="button">
+            <button class="rst_btn" onclick="window.location.reload()">Reset</button>
+        </div>
+    </div>
+    
+</body>
+</html>
