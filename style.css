@@ -1,12 +1,3 @@
-/* .subjects {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-} */
-/* .subjects > *{
-    display: flex;
-    gap: 10px;
-} */
 ::-webkit-inner-spin-button,
   ::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -26,7 +17,6 @@ body{
 }
 p {
     font-size: 22px;
-    font-family: cursive;
 }
 h1 {
     font-size: 50px;
@@ -83,8 +73,7 @@ h2 {
   
 .button > input:hover {
     background: linear-gradient(122deg, violet,rgb(21, 150, 255));
-
-  }
+}
 #output {
     background: rgb(255, 255, 255);
     height: 65px;
@@ -96,7 +85,6 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-
 .rst_btn {
     background-color: rgb(153, 206, 255);
     height: 55px;
