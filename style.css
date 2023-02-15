@@ -54,6 +54,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 .button > input{
     height: 70px;
@@ -79,8 +80,9 @@ h2 {
     background: rgb(255, 255, 255);
     height: 65px;
     width: 150px;
+    height: 70px;
+    width: 180px;
     border-radius: 10px;
-    margin-left: 40px;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -91,11 +93,8 @@ h2 {
     height: 55px;
     width: 120px;
     border-radius: 10px;
-    margin-left: 40px;
     font-size: 1.5rem;
     outline: none;
     border: 1px solid #3f3e3e;
-    align-items: center;
-    justify-content: center;
     transition: 150ms;
 }
