@@ -20,11 +20,11 @@ p {
 }
 h1 {
     font-size: 50px;
-    font-family: 'Julee', cursive;
+    font-family: 'Julee', sans-serif;
 }
 h2 {
     font-size: 35px;
-    font-family: 'Julee', cursive;
+    font-family: 'Julee', sans-serif;
 }
 .subjects {
     display: grid;
